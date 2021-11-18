@@ -1,10 +1,10 @@
-# Getting Started with Create React App
+# Welcome to the Niche Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# My websit name is "RIDERIOT"
 
 ## Available Scripts
 
-In the project directory, you can run:
+Website Link :
 
 ### `npm start`
 
