@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import React from "react";
 import bg from "../../../images/bg.png";
-import bicycle from "../../../images/files/bicycle.png";
+import bicycle from "../../../images/files/bicycle.jpg";
 const bicycleBanner = {
   background: `url(${bg})`,
   backgroundColor: "rgba(45,58,74, 0.7",
@@ -39,7 +39,7 @@ const CycleBanner = () => {
               This Mounth
             </Typography>
             <Typography variant="h4" sx={{ mb: 5 }} style={{ color: "white" }}>
-              Get -20% for all BMX bikes & accessories
+              Get upto -40% for all BMX bikes & accessories
             </Typography>
             <Typography
               variant="h6 "

@@ -1,25 +1,25 @@
 .footer-link a {
   text-decoration: none;
   font-size: 18px;
-  color: black;
+  color: rgb(228, 225, 225);
   font-weight: bold;
   line-height: 35px;
 }
 .footer-link a:hover {
-  color: rgb(104, 0, 0);
+  color: rgb(39, 4, 136);
   transition: 0.06s;
 }
 
 .gradient {
-  background: rgba(173, 204, 229, 0.788);
+  background: rgba(40, 40, 41, 0.788);
   background: linear-gradient(
     0deg,
-    rgba(152, 170, 185, 0.788) 0%,
-    rgba(136, 184, 223, 0.788) 100%
+    rgba(28, 30, 32, 0.788) 0%,
+    rgba(85, 92, 97, 0.788) 100%
   );
 }
 .copyright {
-  background-color: rgb(173, 204, 229, 0.788);
+  background-color: rgba(51, 52, 53, 0.788);
 }
 
 .dropdown-menu.show {

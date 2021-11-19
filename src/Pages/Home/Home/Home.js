@@ -16,6 +16,7 @@ const Home = () => {
         background: `url(${Bg})`,
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center ",
+
         backgroundSize: "cover",
       }}
     >

@@ -7,6 +7,7 @@ import { NavLink } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import useAuth from "../../../Hooks/useAuth";
 import logo from "../../../images/files/logo.png";
+import "./navbar.css"
 
 const Navigation = () => {
   const { user, logOut } = useAuth();
@@ -24,40 +25,41 @@ const Navigation = () => {
   console.log(parseInt(orders.length));
 
   return (
-    <div className="">
-      <Navbar fixed="top" style={{ backgroundColor: "gray" }} expand="lg">
+    <div className="navbar">
+      <Navbar fixed="top" expand="lg">
         <Container>
-          <Navbar.Brand as={NavLink} className="text-black fw-bold" to="/home">
-            <img width="150px" alt="Logo" src={logo} />{" "}
+          <Navbar.Brand as={NavLink} className="text-white fw-bold" to="/home">
+            {/* <img width="150px" alt="Logo" src={logo} />{" "} */}
+            <h3>CycleBD</h3>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto align-items-center">
-              <Nav.Link as={NavLink} to="/home" className="text-black fw-bold">
+              <Nav.Link as={NavLink} to="/home" className="text-white fw-bold">
                 Home
               </Nav.Link>
-              <Nav.Link as={NavLink} to="/about" className="text-black fw-bold">
+              <Nav.Link as={NavLink} to="/about" className="text-white fw-bold">
                 About
               </Nav.Link>
 
               <Nav.Link
                 as={NavLink}
                 to="/services"
-                className="text-black fw-bold"
+                className="text-white fw-bold"
               >
                 Products
               </Nav.Link>
               <Nav.Link
                 as={NavLink}
                 to="/servicesMore"
-                className="text-black fw-bold"
+                className="text-white fw-bold"
               >
                 More Products
               </Nav.Link>
               <Nav.Link
                 as={NavLink}
                 to="/purchase"
-                className="text-black fw-bold"
+                className="text-white fw-bold"
               >
                 Purchase
               </Nav.Link>
@@ -65,7 +67,7 @@ const Navigation = () => {
               <Nav.Link
                 as={NavLink}
                 to="/contact"
-                className="text-black fw-bold"
+                className="text-white fw-bold"
               >
                 Contact
               </Nav.Link>
@@ -73,7 +75,7 @@ const Navigation = () => {
               {!user.displayName ? (
                 <>
                   <Nav.Link
-                    className="text-black fw-bold"
+                    className="text-white fw-bold"
                     as={NavLink}
                     to="/login"
                   >
@@ -97,7 +99,7 @@ const Navigation = () => {
                       >
                         <ShoppingCartIcon
                           fontSize="large"
-                          style={{ color: "black" }}
+                          style={{ color: "white" }}
                         />
                       </Badge>
                     </IconButton>
