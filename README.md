@@ -16,8 +16,11 @@ We’re a bike shop, a family and a team of riders, helping folks in New York ex
 ### Addintional options
 
 - This is one kind of eccommerce websit
-- Login/Register System
-- Admin Panal
-- Most Commonlly userfriendly
+-	Login/Register System and Log in with Google
+- Admin Panel
+- Most Commonly userfriendly
+-	Without login, a user can’t purchase any product, and users can give reviews if they want
+-	Admin Panel & Admin can manage all orders (admin can see all users order and delete orders)
+
 
 
